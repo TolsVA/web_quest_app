@@ -1,0 +1,73 @@
+/* Основные стили для заголовка */
+header {
+    display: flex; /* Используем flexbox для выравнивания */
+    justify-content: space-between; /* Размещаем элементы по краям */
+    align-items: center; /* Выравнивание по центру по вертикали */
+    padding: 10px 20px; /* Отступы сверху и снизу, и слева и справа */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для выделения заголовка */
+    background-color: transparent; /* Без фона */
+}
+
+/* Логотип */
+.logo {
+    border: 2px solid rgba(9, 9, 9, 0.52); /* Обводка логотипа */
+    border-radius: 8px; /* Закругленные углы для обводки */
+    background-color: #cccccc;
+    padding: 5px; /* Отступ внутри обводки */
+    transition: transform 0.3s; /* Плавный переход для эффекта при наведении */
+}
+
+.logo img {
+    height: 30px; /* Высота логотипа */
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5)); /* Тень для логотипа */
+}
+
+.logo:hover {
+    transform: scale(1.05); /* Увеличение логотипа при наведении */
+    background-color: #ce0f0f;
+}
+
+/* Стили для навигации */
+.nav {
+    display: flex; /* Горизонтальное расположение ссылок */
+}
+
+.nav a {
+    margin: 0 15px; /* Отступы между ссылками */
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #070707; /* Цвет текста */
+    font-weight: 600; /* Полужирный шрифт */
+    transition: color 0.3s, text-shadow 0.3s; /* Плавный переход цвета и тени */
+}
+
+.nav a:hover {
+    color: #0056b3; /* Цвет при наведении */
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.3); /* Тень текста при наведении */
+    transform: scale(1.2); /* Увеличение при наведении */
+}
+
+/* Стили для блока авторизации */
+.auth {
+    display: flex; /* Горизонтальное расположение кнопок */
+}
+
+.auth a {
+    background-color: #cccccc;
+    margin-left: 15px; /* Отступ между кнопками */
+    text-decoration: none; /* Убираем подчеркивание */
+    color: black; /* Цвет текста для ссылок */
+    font-weight: 400; /* Обычный шрифт */
+    font-size: 16px; /* Размер шрифта */
+    line-height: 1.5; /* Высота строки для лучшей читаемости */
+    border: 2px solid rgba(9, 9, 9, 0.52); /* Обводка для ссылок */
+    border-radius: 8px; /* Закругленные углы для ссылок */
+    padding: 5px 10px; /* Отступы внутри кнопок */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Плавные переходы */
+}
+
+.auth a:hover {
+    /*color: black; !* Цвет текста при наведении *!*/
+    background-color: green; /* Цвет фона при наведении */
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.3); /* Тень текста при наведении */
+    transform: scale(1.05); /* Увеличение логотипа при наведении */
+}

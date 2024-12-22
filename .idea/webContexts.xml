@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/header.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/includes" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/main/main_entrance.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/main" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/main/start.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/main" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/main_entrance.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/includes" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/upload.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web_page/success.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web_page" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/welcome.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/header.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/index9.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/register.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/success.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+      </map>
+    </option>
+  </component>
+</project>

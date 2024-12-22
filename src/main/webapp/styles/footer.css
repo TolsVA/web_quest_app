@@ -1,0 +1,7 @@
+.footer {
+    display: block;
+    position: fixed;
+    background-position: center;
+    color: #cccccc;
+    bottom: 35px;
+}

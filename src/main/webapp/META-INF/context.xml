@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="web_quest">
+    <!-- Пример настройки ресурсов (например, базы данных) -->
+    <Resource name="jdbc/mydb" auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/mydb"
+              username="root"
+              password="nsw25899"
+              maxTotal="20" maxIdle="10" maxWaitMillis="-1" />
+</Context>

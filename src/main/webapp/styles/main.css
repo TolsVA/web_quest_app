@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /*background: linear-gradient(to bottom, #f0f0f0, #ffffff);*/
+    background-image: url('https://cdn.hkm.hr/2019/05/man-4114654_1920.jpg');
+    height: 100vh;
+}
+
+.main-header {
+    align-items: center;
+    width: 1600px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 10;
+}
+
+.main-content {
+    width: 1600px; /* Ширина контейнера */
+    margin: 0 auto; /* Автоматические отступы слева и справа для центрирования */
+    color: black;
+    text-align: center;
+}
+
+a {
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+/* Стили для сообщения */
+.tooltip {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    z-index: 1000;
+}
+
+.hover-area {
+    width: 200px;
+    height: 420px;
+    /*background-color: #f0f0f0;*/
+    margin: 20px auto;
+    position: relative;
+    text-align: center;
+    line-height: 100px; /* Центрирование текста */
+    cursor: pointer; /* Указатель при наведении */
+}
